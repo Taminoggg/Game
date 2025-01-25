@@ -89,8 +89,6 @@ public class DisplayInventory : MonoBehaviour
                 _slot.Key.GetComponentInChildren<TextMeshProUGUI>().text = "";
             }
         }
-
-        
     }
 
     private void AddEvent(GameObject obj, EventTriggerType type, UnityAction<BaseEventData> action)
@@ -104,6 +102,8 @@ public class DisplayInventory : MonoBehaviour
 
     private void TGOnClick(GameObject obj)
     {
+        Debug.Log("HIT HIT HIT HIT");
+
         if (!disableDrag) return;
         var inventorySlot = itemsDisplayed[obj];
         playerInventory.AddItem(inventorySlot.item, 1);

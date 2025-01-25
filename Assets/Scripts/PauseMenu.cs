@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     private static State _state;
+    public State state;
     public GameObject pauseMenuGameObject;
     // public GameObject timerGameObject;
     // private  GameObject _timerGameObject;
@@ -23,9 +24,9 @@ public class PauseMenu : MonoBehaviour
     {
         // SetPlayerCam();
         // _timerGameObject = timerGameObject;
-        // _state = State.Play;
-        //_choosePowerUpUI = GameObject.FindWithTag("PowerUpScreen");
+        //_state = State.Play;
         _choosePowerUpUI.SetActive(false);
+        SetPlayerCam();
     }
 
     public static void SetState(State setState)
@@ -40,6 +41,7 @@ public class PauseMenu : MonoBehaviour
 
     private void Update()
     {
+        state = _state;
         switch (_state)
         {
             case State.SelectItem:

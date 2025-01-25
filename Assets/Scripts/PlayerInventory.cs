@@ -6,13 +6,11 @@ public class PlayerInventory : MonoBehaviour
 {
     public InventoryObject inventory;
     private GameObject _inventoryUI;
-    private GameObject _choosePowerUpUI;
     private bool _selectingUpgrade;
 
     private void Start()
     {
         _inventoryUI = GameObject.FindWithTag("InventoryScreen");
-        _choosePowerUpUI = GameObject.FindWithTag("PowerUpScreen");
         _inventoryUI.SetActive(false);
     }
     
