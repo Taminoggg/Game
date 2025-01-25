@@ -6,7 +6,6 @@ public class PlayerInventory : MonoBehaviour
 {
     public InventoryObject inventory;
     private GameObject _inventoryUI;
-    private bool _selectingUpgrade;
 
     private void Start()
     {
@@ -26,32 +25,11 @@ public class PlayerInventory : MonoBehaviour
 
     private void Update()
     {
-       if (!_selectingUpgrade && (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.I)))
+       if (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.I))
        {
            _inventoryUI.SetActive(!_inventoryUI.activeSelf);
            PauseMenu.SetState(PauseMenu.GetState() == State.Inventory ? State.Play : State.Inventory);
-       }
-       
-       if (Input.GetKeyDown(KeyCode.T))
-       {
-           if (PauseMenu.GetState() == State.SelectItem)
-           {
-               PauseMenu.SetState(State.Play);
-               _selectingUpgrade = false;
-           }
-           else
-           {
-               PauseMenu.SetState(State.SelectItem);
-               _selectingUpgrade = true;
-           }
-       }
-       
-       //if (Input.GetKeyDown(KeyCode.KeypadEnter))
-       //{
-       //    inventory.Load();
-       //   inventory.Save();
-       //}
-       
+       }     
     }
     private void OnApplicationQuit()
     {

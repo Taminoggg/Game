@@ -14,6 +14,10 @@ public class PlayerLevel : MonoBehaviour
 
     private void Update()
     {
+        if(Input.GetKeyUp(KeyCode.T)){
+            _currXp += 10;
+        }
+
         display = _currXp;
         if (_xpNeeded > _currXp) return;
         PauseMenu.SetState(State.SelectItem);

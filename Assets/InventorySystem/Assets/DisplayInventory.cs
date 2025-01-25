@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -22,7 +21,6 @@ public class DisplayInventory : MonoBehaviour
     public int Y_SPACE_BETWEEN_ITEMS;
     Dictionary<GameObject, InventorySlot> itemsDisplayed = new Dictionary<GameObject, InventorySlot>();
     public bool disableDrag;
-    private bool isShuffled = false;
 
     void Start()
     {
@@ -32,6 +30,26 @@ public class DisplayInventory : MonoBehaviour
     void Update()
     {
         UpdateSlots();
+    }
+
+    void OnEnable()
+    {
+        if (disableDrag)
+        {
+            inventory.Clear();
+
+            var random = new Random();
+            var shuffledItems = inventoryPool.Container.Items
+                .OrderBy(item => random.Next())
+                .Distinct()
+                .Take(4)     
+                .ToList();
+
+            foreach (var inventorySlot in shuffledItems)
+            {
+                inventory.AddItem(inventorySlot.item, 1);
+            }
+        }
     }
 
     private void CreateSlots()
@@ -55,23 +73,6 @@ public class DisplayInventory : MonoBehaviour
 
     public void UpdateSlots()
     {
-        if (disableDrag && !isShuffled)
-        {
-            var random = new Random();
-            var shuffledItems = inventoryPool.Container.Items
-                .OrderBy(item => random.Next())
-                .Distinct()
-                .Take(4)
-                .ToList();
-
-            foreach (var inventorySlot in shuffledItems)
-            {
-                inventory.AddItem(inventorySlot.item, 1);
-            }
-
-            isShuffled = true;
-        }
-
         foreach (KeyValuePair<GameObject, InventorySlot> _slot in itemsDisplayed)
         {
             if (_slot.Value.ID >= 0)
@@ -94,16 +95,16 @@ public class DisplayInventory : MonoBehaviour
     private void AddEvent(GameObject obj, EventTriggerType type, UnityAction<BaseEventData> action)
     {
         EventTrigger trigger = obj.GetComponent<EventTrigger>();
-        var eventTrigger = new EventTrigger.Entry();
-        eventTrigger.eventID = type;
+        var eventTrigger = new EventTrigger.Entry
+        {
+            eventID = type
+        };
         eventTrigger.callback.AddListener(action);
         trigger.triggers.Add(eventTrigger);
     }
 
     private void TGOnClick(GameObject obj)
     {
-        Debug.Log("HIT HIT HIT HIT");
-
         if (!disableDrag) return;
         var inventorySlot = itemsDisplayed[obj];
         playerInventory.AddItem(inventorySlot.item, 1);
