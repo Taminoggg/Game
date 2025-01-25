@@ -22,6 +22,7 @@ public class DisplayInventory : MonoBehaviour
     public int Y_SPACE_BETWEEN_ITEMS;
     Dictionary<GameObject, InventorySlot> itemsDisplayed = new Dictionary<GameObject, InventorySlot>();
     public bool disableDrag;
+    private bool isShuffled = false;
 
     void Start()
     {
@@ -54,29 +55,23 @@ public class DisplayInventory : MonoBehaviour
 
     public void UpdateSlots()
     {
-        if (disableDrag)
+        if (disableDrag && !isShuffled)
         {
-            foreach (var inventorySlot in inventory.Container.Items.ToList().Where(inventorySlot => inventorySlot != null))
-            {
-                inventory.RemoveItem(inventorySlot.item);
-                inventorySlot.UpdateSlot(-1, inventorySlot.item, 1);
-            }
-    
             var random = new Random();
             var shuffledItems = inventoryPool.Container.Items
                 .OrderBy(item => random.Next())
                 .Distinct()
-                .Take(4)     
+                .Take(4)
                 .ToList();
 
             foreach (var inventorySlot in shuffledItems)
             {
                 inventory.AddItem(inventorySlot.item, 1);
             }
-            
-            //inventory.RemoveItemsExcept(shuffledItems);
+
+            isShuffled = true;
         }
-        
+
         foreach (KeyValuePair<GameObject, InventorySlot> _slot in itemsDisplayed)
         {
             if (_slot.Value.ID >= 0)
@@ -94,6 +89,8 @@ public class DisplayInventory : MonoBehaviour
                 _slot.Key.GetComponentInChildren<TextMeshProUGUI>().text = "";
             }
         }
+
+        
     }
 
     private void AddEvent(GameObject obj, EventTriggerType type, UnityAction<BaseEventData> action)
