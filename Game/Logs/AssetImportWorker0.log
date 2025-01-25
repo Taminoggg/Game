@@ -1,0 +1,509 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.56f1 (dd0c98481d00) revision 14486680'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'de' Physical Memory: 16305 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.56f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/SelfMadeGames/Game/Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61232
+Successfully changed project path to: C:/SelfMadeGames/Game/Game
+C:/SelfMadeGames/Game/Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7892]  Target information:
+
+Player connection [7892]  * "[IP] 10.0.0.136 [Port] 0 [Flags] 2 [Guid] 2902465656 [EditorId] 2902465656 [Version] 1048832 [Id] WindowsEditor(7,TaminoG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7892] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7892] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 15.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.56f1 (dd0c98481d00)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/SelfMadeGames/Game/Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.56f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009541 seconds.
+- Loaded All Assemblies, in  0.347 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.232 seconds
+Domain Reload Profiling: 574ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (117ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (232ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (185ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.662 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.581 seconds
+Domain Reload Profiling: 1235ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (132ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (581ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (453ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 9.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3569.
+Memory consumption went from 118.7 MB to 118.6 MB.
+Total: 2.778600 ms (FindLiveObjects: 0.234500 ms CreateObjectMapping: 0.144700 ms MarkObjects: 2.324800 ms  DeleteObjects: 0.073900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50508.997592 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2deb64ab17e4bf234f321ce9b6d46100') in 0.049285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 71.885232 seconds.
+  path: Assets/Enemies/Scripts/EnemyAiMelee.cs
+  artifactKey: Guid(61b0427355a4c8846be892cfc956b204) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Scripts/EnemyAiMelee.cs using Guid(61b0427355a4c8846be892cfc956b204) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6b981464ab7a8d9013cedfc20324baa7') in 0.042791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.492508 seconds.
+  path: Assets/Enemies/Prefabs/Skeletion.prefab
+  artifactKey: Guid(994d9078add34b24ba1a9437d644f1fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Prefabs/Skeletion.prefab using Guid(994d9078add34b24ba1a9437d644f1fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '086199cd4ed4d372ec13417ddd1524f6') in 0.114991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 0.384184 seconds.
+  path: Assets/Enemies/Animations/Characters/Skeleton/skeletonZombie_normal.png
+  artifactKey: Guid(7080befa041b4d44ca20365522948b95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Skeleton/skeletonZombie_normal.png using Guid(7080befa041b4d44ca20365522948b95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4a0ff1779e907d63c041f530020df7aa') in 0.053580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.274481 seconds.
+  path: Assets/Enemies/Animations/Characters/Monster/MAW_glow.png
+  artifactKey: Guid(62dd9c43a27c31a4cb5ae9796483335d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Monster/MAW_glow.png using Guid(62dd9c43a27c31a4cb5ae9796483335d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9241f046e9cd216ec56181a446ece0be') in 0.012841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Enemies/Animations/Characters/Monster/maria_specular.png
+  artifactKey: Guid(c7ceee14c4ae1594da1122796a799b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Monster/maria_specular.png using Guid(c7ceee14c4ae1594da1122796a799b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bc2e5255519cad293aaec95febac6b35') in 0.011373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.474612 seconds.
+  path: Assets/Enemies/Animations/Characters/Vampire
+  artifactKey: Guid(303e2bdd33a09aa479e6519dc7163d51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Vampire using Guid(303e2bdd33a09aa479e6519dc7163d51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '05035bac9a05eb2b79c6f45510821efd') in 1.065635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000774 seconds.
+  path: Assets/Enemies/Animations/Characters/Knight/KnightController.controller
+  artifactKey: Guid(d4fdaae24c300424b9b7618d86ef6820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Knight/KnightController.controller using Guid(d4fdaae24c300424b9b7618d86ef6820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6b291a91923ff4046f15036bd641f95f') in 0.025074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Enemies/Animations/Characters
+  artifactKey: Guid(89a87c2492bf52d4f819db24d6954758) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters using Guid(89a87c2492bf52d4f819db24d6954758) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '14de0943a87ce23351ee93d0fa49886b') in 0.012676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Enemies/Animations/Characters/BearMonster/bear_normal.png
+  artifactKey: Guid(0bb8d4a7fa1ca3f4f8b5324f362924f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/BearMonster/bear_normal.png using Guid(0bb8d4a7fa1ca3f4f8b5324f362924f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '32cf04533b98b990e3b8a0c99dd608e5') in 0.026825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Enemies/Scripts/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs
+  artifactKey: Guid(15548e45f29cdba49aea85acca959a91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Scripts/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs using Guid(15548e45f29cdba49aea85acca959a91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'be02d66c9c130b990007003cb7ba656c') in 0.010613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Enemies/Animations/Characters/Skeleton/Skeletonzombie T Avelange@Mutant Idle.fbx
+  artifactKey: Guid(13d8d9f906f78314e91e90f1f72d1716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Skeleton/Skeletonzombie T Avelange@Mutant Idle.fbx using Guid(13d8d9f906f78314e91e90f1f72d1716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bb3cbebe26afde2765b8fd7cbb6d84c1') in 0.123222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 163
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Enemies/Scripts/NavMeshComponents/Scripts/NavMeshLink.cs
+  artifactKey: Guid(fd3f0c8df3e6f2f41a45b75127c00b31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Scripts/NavMeshComponents/Scripts/NavMeshLink.cs using Guid(fd3f0c8df3e6f2f41a45b75127c00b31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '96aa41bcf8e0fec8ac1b76288ecefe0d') in 0.005224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Enemies/Animations/Characters/Vampire/Vampire_normal.png
+  artifactKey: Guid(b6f33facbe9a071419a24e95b6a5be0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Vampire/Vampire_normal.png using Guid(b6f33facbe9a071419a24e95b6a5be0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dc015f9ed305f7570de775470af4c288') in 0.015631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Enemies
+  artifactKey: Guid(78f5e2fa2b11c8947b9a6c65cb155d19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies using Guid(78f5e2fa2b11c8947b9a6c65cb155d19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6f16e59582bef5f58996ccec8f9c5c56') in 0.004110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Enemies/Prefabs/Bear.prefab
+  artifactKey: Guid(d5461b50e2bb7c64d9ea0d227f221c30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Prefabs/Bear.prefab using Guid(d5461b50e2bb7c64d9ea0d227f221c30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '35b0619330d2e2caa211c28aa3c8b1e9') in 0.019098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 216
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Enemies/Scripts/NavMeshComponents/Scripts/NavMeshModifierVolume.cs
+  artifactKey: Guid(2777bba7e4e7c6f4681e3ea77eef5438) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Scripts/NavMeshComponents/Scripts/NavMeshModifierVolume.cs using Guid(2777bba7e4e7c6f4681e3ea77eef5438) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e360ea03d06f0acc2c37c2c48b4b9492') in 0.005642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Enemies/Scripts/NavMeshComponents/Editor/NavMeshLinkEditor.cs
+  artifactKey: Guid(2736c3ce72815474a841d00c8558a7a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Scripts/NavMeshComponents/Editor/NavMeshLinkEditor.cs using Guid(2736c3ce72815474a841d00c8558a7a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e4653fcf4d3ed240ccfdef4e983b172c') in 0.004910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Enemies/Animations/Characters/Vampire/Vampire_emission.png
+  artifactKey: Guid(727b139c6bdeab842948cb0e2fb1450f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Vampire/Vampire_emission.png using Guid(727b139c6bdeab842948cb0e2fb1450f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7631dd4554474ff4e0f64f7cf881fa55') in 0.011490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Enemies/Animations/Characters/Skeleton/Skeletonzombie T Avelange@Standing 2H Magic Attack 01.fbx
+  artifactKey: Guid(1b45a9df56c06584eb4255aefecf5f34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Skeleton/Skeletonzombie T Avelange@Standing 2H Magic Attack 01.fbx using Guid(1b45a9df56c06584eb4255aefecf5f34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7aef29b66d3473a5b48214eddd5ed340') in 0.022673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 153
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Enemies/Animations/Characters/BearMonster/BearController.controller
+  artifactKey: Guid(bca8f7472f146fa4bb7a0747dc85c754) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/BearMonster/BearController.controller using Guid(bca8f7472f146fa4bb7a0747dc85c754) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '54760905fe3407204dba116f6dae3416') in 0.011041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Enemies/Animations/Characters/Skeleton/skeletonZombie_glow.png
+  artifactKey: Guid(41ceb9888a10ce448b4bda8a09c2abd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Skeleton/skeletonZombie_glow.png using Guid(41ceb9888a10ce448b4bda8a09c2abd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e3fc9e7235c28e727e4c2010ad68fd6') in 0.012013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Enemies/Animations/Characters/Monster/Maw J Laygo@Walking.fbx
+  artifactKey: Guid(612c9298c7e09fc489e7f6275c835c49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Monster/Maw J Laygo@Walking.fbx using Guid(612c9298c7e09fc489e7f6275c835c49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '74def6f6ae8f7d539a69f0bbf53fa575') in 0.017557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Enemies/Scripts/NavMeshComponents/Scripts
+  artifactKey: Guid(7460f11c23e9c834485c61efaad3ed23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Scripts/NavMeshComponents/Scripts using Guid(7460f11c23e9c834485c61efaad3ed23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4750e374d429aa9a08f585c25c0bb9a2') in 0.003927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Enemies/Scripts/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs
+  artifactKey: Guid(b109366e8e12f3f448cc2f2576df102a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Scripts/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs using Guid(b109366e8e12f3f448cc2f2576df102a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ab9006f16edf4179c49477ec00c66b83') in 0.005717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Enemies/Animations/Characters/Vampire/Vampire_diffuse.png
+  artifactKey: Guid(674fdce7d0ec4364da2eb76f432f191e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Vampire/Vampire_diffuse.png using Guid(674fdce7d0ec4364da2eb76f432f191e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b288fd3ebcd7e09cae1b4982cb2114b4') in 0.013789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Enemies/Scenes/EnemyTestScene.unity
+  artifactKey: Guid(77f2aa17ec6d16e4f9efc8ef48256e62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Scenes/EnemyTestScene.unity using Guid(77f2aa17ec6d16e4f9efc8ef48256e62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cefb078753714ac2c23c49d74c1f5101') in 0.004324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Enemies/Animations/Characters/BearMonster/akai_e_espiritu@Standing Run Forward.fbx
+  artifactKey: Guid(103a2eb905e7184479619f45f255e973) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/BearMonster/akai_e_espiritu@Standing Run Forward.fbx using Guid(103a2eb905e7184479619f45f255e973) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0a7be13df2cfb1fcc40cd4040f5abaa4') in 0.016485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Enemies/Animations/Characters/Skeleton/Ch25_nonPBR@Dying.fbx
+  artifactKey: Guid(3247e20a2e9610b4f831e502f13f8ead) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Skeleton/Ch25_nonPBR@Dying.fbx using Guid(3247e20a2e9610b4f831e502f13f8ead) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ad57a03e138b4ed40e8f49a290011bbd') in 0.020229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Enemies/Animations/Characters/Monster/Maw J Laygo@Orc Idle.fbx
+  artifactKey: Guid(c33a163fcf182e14380ff1c9a25d3c99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Monster/Maw J Laygo@Orc Idle.fbx using Guid(c33a163fcf182e14380ff1c9a25d3c99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '683e08338e14b9bf19a6d877313c296d') in 0.027127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Enemies/Animations/Characters/BearMonster/bear_specular.png
+  artifactKey: Guid(679ca8330f3402c4082287374e1ba581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/BearMonster/bear_specular.png using Guid(679ca8330f3402c4082287374e1ba581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1aa92a5b1ff2999316a5bea66c625884') in 0.009955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Enemies/Animations/Characters/Skeleton/Skeletonzombie T Avelange@Mutant Walking.fbx
+  artifactKey: Guid(9c365792d6a53f341be677cd761e5ee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Skeleton/Skeletonzombie T Avelange@Mutant Walking.fbx using Guid(9c365792d6a53f341be677cd761e5ee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ca8d6127dcbe0c6ae58ad3b5a2e72ab9') in 0.017322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 153
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Enemies/Animations/Characters/Knight/Paladin_normal.png
+  artifactKey: Guid(873e073375d9b2f40913719eb97fa88a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Knight/Paladin_normal.png using Guid(873e073375d9b2f40913719eb97fa88a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3ade704baebffe9499a68e02d3fbd32e') in 0.011120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Enemies/Animations/Characters/Knight/Paladin J Nordstrom@Standing Idle Looking Ver. 1.fbx
+  artifactKey: Guid(c28bedd85a5e3684795314d1f799857f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Knight/Paladin J Nordstrom@Standing Idle Looking Ver. 1.fbx using Guid(c28bedd85a5e3684795314d1f799857f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f886b912411e375b7fd81e5c2a80a800') in 0.026609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Enemies/Animations/Characters/Vampire/Vampire A Lusth@Standing Idle.fbx
+  artifactKey: Guid(25d5d2c6d1cdf474ab029397fe0e6555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Vampire/Vampire A Lusth@Standing Idle.fbx using Guid(25d5d2c6d1cdf474ab029397fe0e6555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9974d19afe6a43b58bfa391edd0a92f7') in 0.032588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Enemies/Animations/Characters/Skeleton
+  artifactKey: Guid(d705ce26ca9eefc4385a9fde03b63a8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemies/Animations/Characters/Skeleton using Guid(d705ce26ca9eefc4385a9fde03b63a8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5fc19e3685e3e78910d6bc24162131a8') in 0.003200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Der E/A-Vorgang wurde wegen eines Threadendes oder einer Anwendungsanforderung abgebrochen.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
