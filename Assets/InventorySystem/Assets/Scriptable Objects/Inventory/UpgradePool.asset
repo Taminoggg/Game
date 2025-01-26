@@ -16,24 +16,24 @@ MonoBehaviour:
   database: {fileID: 11400000, guid: 12cdf3138109dd946b96d9d82a9ddda2, type: 2}
   Container:
     Items:
-    - ID: -1
+    - ID: 5
       item:
-        Name: 
+        Name: Sword 2
+        Id: 5
+        buffs: []
+      amount: 2
+    - ID: 0
+      item:
+        Name: Monkfish
         Id: 0
         buffs: []
-      amount: 0
-    - ID: -1
+      amount: 1
+    - ID: 2
       item:
-        Name: 
-        Id: 0
+        Name: Sword
+        Id: 2
         buffs: []
-      amount: 0
-    - ID: -1
-      item:
-        Name: 
-        Id: 0
-        buffs: []
-      amount: 0
+      amount: 1
     - ID: -1
       item:
         Name: 

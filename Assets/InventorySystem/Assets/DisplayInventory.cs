@@ -42,13 +42,19 @@ public class DisplayInventory : MonoBehaviour
             var shuffledItems = inventoryPool.Container.Items
                 .OrderBy(item => random.Next())
                 .Distinct()
-                .Take(4)     
+                .Take(4)
                 .ToList();
 
             foreach (var inventorySlot in shuffledItems)
             {
                 inventory.AddItem(inventorySlot.item, 1);
             }
+
+            foreach (Transform child in transform)
+            {
+                Destroy(child.gameObject);
+            }
+            CreateSlots();
         }
     }
 
